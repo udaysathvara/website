@@ -1,0 +1,698 @@
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            margin: 0;
+                        }
+                        
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            max-width: 810px;
+                            margin: 0 auto;
+                            display: flow-root;
+                        }
+                        
+                        h1 {
+                            font-size: 30px;
+                            line-height: 36px;
+                            margin: 0;
+                        }
+                        
+                        h2 {
+                            font-size: 26px;
+                            line-height: 30px;
+                            margin: 0;
+                        }
+                        
+                        h3 {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                        
+                        h4 {
+                            font-size: 14px;
+                            line-height: 18px;
+                        }
+                        
+                        p {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                        
+                        button {
+                            padding: 10px 35px;
+                            border-radius: 35px;
+                            border: 0;
+                            background-color: #b5ed17;
+                            color: white;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        
+                        span {
+                            color: #b5ed17;
+                        }
+                        /*////////////////////////////////////////////////////// head/////////////////////////////////////////////////////////*/
+                        
+                        header.head {
+                            background-color: black;
+                            padding: 15px 0px;
+                            position: fixed;
+                            width: 100%;
+                        }
+                        
+                        .left_area {
+                            width: 50%;
+                            color: white;
+                            float: left;
+                        }
+                        
+                        .right_area {
+                            width: 50%;
+                            float: left;
+                        }
+                        
+                        .left_area h1 {
+                            float: left;
+                        }
+                        
+                        .phn_num {
+                            float: left;
+                            margin: 10px 0 0 20px;
+                        }
+                        
+                        .phn_num a {
+                            font-size: 14px;
+                        }
+                        
+                        .phn_num a {
+                            font-size: 14px;
+                        }
+                        
+                        .right_area button {
+                            float: right;
+                        }
+                        
+                        .full_area {
+                            width: 100%;
+                            float: left;
+                            margin-top: 15px;
+                        }
+                        
+                        .full_area ul li {
+                            float: left;
+                        }
+                        
+                        .full_area li {
+                            padding-left: 50px;
+                        }
+                        
+                        li.home {
+                            padding-left: 0;
+                        }
+                        
+                        .full_area ul li {
+                            float: none;
+                            /* text-align: center; */
+                        }
+                        
+                        .full_area {
+                            text-align: center;
+                        }
+                        
+                        li.home {
+                            padding: 0;
+                        }
+                        
+                        .full_area ul li {
+                            padding-left: 40px;
+                        }
+                        /*////////////////////////////////////////////////////// First //////////////////////////////////////////////*/
+                        
+                        section.first {
+                            background-image: url(../image/Group3.png);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            padding-top: 100px;
+                        }
+                        
+                        .first_all {
+                            color: white;
+                        }
+                        
+                        i.fa.fa-circle-o {
+                            float: left;
+                            color: #b5ed17;
+                            margin-top: 10px;
+                            margin-right: 15px;
+                        }
+                        
+                        .first_all h1,
+                        h4 {
+                            margin-bottom: 40px;
+                        }
+                        
+                        .first_all {
+                            padding: 175px 0;
+                        }
+                        /*////////////////////////////////////////////////////// Second //////////////////////////////////////////////*/
+                        
+                        section.second {
+                            background-color: black;
+                        }
+                        
+                        .second_all {
+                            width: 100%;
+                            float: left;
+                        }
+                        
+                        .second_all ul li {
+                            padding: 0;
+                            padding-right: 62px;
+                            color: white;
+                            float: left;
+                        }
+                        
+                        section.second {
+                            background-color: black;
+                            padding: 10px 20px;
+                        }
+                        
+                        .thirf_fimg h3 {
+                            background-color: #b5ed17;
+                            margin: 0;
+                            padding: 5px;
+                        }
+                        /*////////////////////////////////////////////////////// Third //////////////////////////////////////////////*/
+                        
+                        section.third {
+                            text-align: center;
+                            padding: 50px 15px 30px;
+                        }
+                        
+                        .third_all_img {
+                            width: 100%;
+                            float: left;
+                            padding-bottom: 40px;
+                        }
+                        
+                        .thirf_fimg {
+                            width: 32%;
+                            float: left;
+                            margin-right: 10px;
+                        }
+                        
+                        .thirf_fimg h3 {
+                            width: 261 px;
+                        }
+                        
+                        .third_button button {
+                            background-color: black;
+                        }
+                        
+                        .thirf_fimg h3 {
+                            text-align: center;
+                            float: none;
+                            margin: 0 auto;
+                        }
+                        /*////////////////////////////////////////////////////// Four //////////////////////////////////////////////*/
+                        
+                        section.four {
+                            background-image: url(../image/Group7.png);
+                            background-size: cover;
+                            padding: 100px 0;
+                            text-align: center;
+                        }
+                        
+                        .four_all {
+                            color: white;
+                            background-color: rgb(60, 60, 60, 0.7);
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px 0;
+                        }
+                        
+                        ._four_button {
+                            margin-top: -10px;
+                        }
+                        /*////////////////////////////////////////////////////// Five //////////////////////////////////////////////*/
+                        
+                        .five_text {
+                            text-align: center;
+                        }
+                        
+                        .dive__all_img {
+                            width: 100%;
+                            float: left;
+                        }
+                        
+                        .five_button {
+                            width: 100%;
+                            text-align: center;
+                            float: left;
+                            margin-top: 35px;
+                        }
+                        
+                        .five_button button {
+                            background-color: black;
+                        }
+                        /**/
+                        
+                        .sall_img {
+                            float: left;
+                            width: 100%;
+                        }
+                        
+                        .sfirst_img {
+                            float: left;
+                            width: 32%;
+                            margin-left: 10px;
+                            margin-top: 10px;
+                        }
+                        
+                        .ssecond_img {
+                            float: left;
+                            width: 32%;
+                            margin-left: 10px;
+                            height: 210px;
+                            margin-top: 9px;
+                        }
+                        
+                        .sfive_img {
+                            float: left;
+                            width: 32%;
+                            margin-left: 10px;
+                            margin-top: 114px;
+                        }
+                        
+                        section.five {
+                            padding: 50px 0;
+                        }
+                        /*////////////////////////////////////////////////////// Six //////////////////////////////////////////////*/
+                        
+                        section.six {
+                            background-color: #ebebe9;
+                            padding: 50px 0;
+                        }
+                        
+                        .six_left {
+                            width: 70%;
+                            float: left;
+                        }
+                        
+                        .six_right {
+                            width: 30%;
+                            float: left;
+                            padding-top: 30px;
+                        }
+                        
+                        .sleft_form {
+                            float: left;
+                            font-size: 14px;
+                            width: 100%;
+                        }
+                        
+                        .names input {
+                            margin: 0 10px 10px 10px;
+                            border-radius: 5px;
+                        }
+                        
+                        .mails input {
+                            border-radius: 5px;
+                            margin: 0 0 10px 15px;
+                            width: 74%;
+                        }
+                        
+                        .names {
+                            width: 100%;
+                            float: left;
+                        }
+                        
+                        .submit input {
+                            background-color: black;
+                            color: white;
+                            border-radius: 10px;
+                            padding: 5px 30px;
+                        }
+                        
+                        .submit {
+                            text-align: center;
+                        }
+                        
+                        .sleft_form input {
+                            width: 90%;
+                        }
+                        
+                        .submit input {
+                            width: 20%;
+                        }
+                        /*////////////////////////////////////////////////////// Seven //////////////////////////////////////////////*/
+                        
+                        section.seven {
+                            background-color: #b5ed17;
+                            text-align: center;
+                            padding: 10px 20px 6px;
+                        }
+                        
+                        .seven img {
+                            margin-right: 10px;
+                        }
+                        /*////////////////////////////////////////////////////// Eight //////////////////////////////////////////////*/
+                        
+                        .eight {
+                            background-color: rgb(16 16 16 / 90%);
+                            color: white;
+                            padding: 30px 0;
+                        }
+                        
+                        .eight_first {
+                            float: left;
+                            width: 25%;
+                            padding: 15px 0;
+                        }
+                        
+                        .eight_first h4 {
+                            margin: 0 0 20px 0;
+                        }
+                        
+                        .eight_second {
+                            float: left;
+                            width: 25%;
+                            padding-left: 50px;
+                            padding: 15px 0 15px 50px;
+                        }
+                        
+                        .eight_second ul {
+                            font-size: 14px;
+                        }
+                        
+                        .eight_third {
+                            width: 25%;
+                            float: left;
+                            padding: 15px 0;
+                        }
+                        
+                        .eight_third h4 {
+                            margin: 0;
+                            padding-bottom: 9px;
+                        }
+                        /*////////////////////////////////////////////////////// Last //////////////////////////////////////////////*/
+                        
+                        section.last {
+                            color: white;
+                            background-color: black;
+                            text-align: center;
+                            padding: 10px;
+                        }
+                        
+                        section.last h4 {
+                            margin: 0;
+                        }
+                        /*////////////////////////////////////////////////////// Hover //////////////////////////////////////////////*/
+                        
+                        .full_area a:hover {
+                            color: #bcff00;
+                        }
+                        
+                        button:hover {
+                            background-color: #3e3e3e;
+                            text-decoration: underline;
+                        }
+                        
+                        section.second a:hover {
+                            color: #bcff00;
+                        }
+                        
+                        .thirf_fimg h3:hover {
+                            background-color: black;
+                        }
+                        
+                        .thirf_fimg h3 a:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .third_button button:hover {
+                            background-color: #a5d911;
+                        }
+                        
+                        .five_button button:hover {
+                            background-color: #a5d911;
+                        }
+                        
+                        .eight_first h3:hover {
+                            color: #bdff00;
+                        }
+                        
+                        .eight_first h3 span:hover {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .eight_second h3:hover {
+                            color: #bdff00;
+                        }
+                        
+                        .eight_second li:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .eight_third h3:hover {
+                            color: #bdff00;
+                        }
+                        
+                        .eight_third a:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .eight_first span:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .last h4:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .submit input:hover {
+                            background-color: #bdff00;
+                        }
+                        /*//////////////////////////////////////////////////////Media Query//////////////////////////////////////////////*/
+                        
+                        @media only screen and (max-width: 1100px) {
+                            .full_area li {
+                                padding-left: 40px;
+                            }
+                            li.home {
+                                padding: 0;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 950px) {
+                            header.head {
+                                padding: 15px 15px;
+                            }
+                            .full_area {
+                                font-size: 13px;
+                            }
+                            .first_all {
+                                padding: 145px 0 125px 50px;
+                            }
+                            .second_all ul li {
+                                padding-right: 51px;
+                            }
+                            .thirf_fimg img {
+                                height: 125px;
+                            }
+                            .thirf_fimg h3 {
+                                width: 220px;
+                            }
+                            .third_all_img h3 {
+                                width: 197px;
+                                margin-left: 20px;
+                            }
+                            .thirf_fimg {
+                                width: 31%;
+                            }
+                            section.six {
+                                padding: 50px 15px;
+                            }
+                            .six_right img {
+                                width: 200px;
+                                margin-top: 50px;
+                            }
+                            .eight {
+                                padding: 30px 15px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 767px) {
+                            .left_area {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            .left_area h1 {
+                                text-align: center;
+                                float: none;
+                            }
+                            .phn_num {
+                                float: left;
+                                margin: 0;
+                                padding-top: 15px;
+                                width: 100%;
+                            }
+                            .right_area {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            .right_area button {
+                                margin-top: 15px;
+                                float: none;
+                            }
+                            .full_area li {
+                                padding-left: 15px;
+                            }
+                            .first_all {
+                                padding: 15px;
+                            }
+                            .first_all h1 {
+                                font-size: 18px;
+                            }
+                            .first_all h4 {
+                                font-size: 12px;
+                            }
+                            .first_all h1,
+                            h4 {
+                                margin-bottom: 20px;
+                            }
+                            .first_all {
+                                padding: 13px;
+                            }
+                            .second_all ul li {
+                                font-size: 12px;
+                                padding-left: 0px;
+                                padding-top: 3px;
+                                float: left;
+                                width: 10%;
+                            }
+                            .third_text h4 {
+                                font-size: 12px;
+                            }
+                            .third_text h1 {
+                                font-size: 16px;
+                            }
+                            .thirf_fimg {
+                                width: 100%;
+                            }
+                            .thirf_fimg h3 {
+                                float: none;
+                                margin: 0 auto;
+                                margin-bottom: 15px;
+                            }
+                            .four_all h2 {
+                                font-size: 16px;
+                            }
+                            .four_all h4 {
+                                font-size: 12px;
+                            }
+                            .four_all {
+                                max-width: 290px;
+                            }
+                            .sfirst_img {
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 15px 0;
+                            }
+                            .sffirst_img {
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 15px 0;
+                                margin-top: 110px;
+                            }
+                            .ssecond_img {
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 15px 0;
+                            }
+                            .sfive_img {
+                                width: 100%;
+                                text-align: center;
+                                margin: 0 0 15px 0;
+                            }
+                            .six_left {
+                                width: 100%;
+                            }
+                            .six_right {
+                                width: 100%;
+                                text-align: center;
+                                padding: 0;
+                            }
+                            .submit input {
+                                padding: 5px;
+                            }
+                            .eight_first {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            .eight_second {
+                                width: 100%;
+                                text-align: center;
+                                display: block;
+                                padding: 0;
+                            }
+                            .eight_third {
+                                width: 100%;
+                                text-align: center;
+                            }
+                            .eight_second li {
+                                display: block;
+                            }
+                            section.last h4 {
+                                font-size: 12px;
+                            }
+                            .first_all {
+                                margin-top: 110px;
+                            }
+                            .full_area ul li {
+                                padding-left: 10px;
+                            }
+                            .full_area ul {
+                                display: none;
+                            }
+                            .dot {
+                                height: 5px;
+                                width: 5px;
+                                background-color: white;
+                                margin-bottom: 5px;
+                            }
+                            .dotess {
+                                display: grid;
+                                place-items: center;
+                            }
+                            .dote_box {
+                                height: 224px;
+                                width: 200px;
+                                background-color: #1d1d1d;
+                                color: white;
+                                visibility: hidden;
+                            }
+                            .data .info {
+                                border-bottom: 1px solid white;
+                                padding: 5px;
+                                border-top: 1px solid white;
+                            }
+                            .second_all {
+                                display: none;
+                            }
+                            #data {
+                                width: 190px;
+                                color: white;
+                            }
+                        }
